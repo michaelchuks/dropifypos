@@ -1,0 +1,58 @@
+@media(max-width:800px){
+    html{
+        font-size:15px !important
+    }
+
+.container{
+    width:86% !important;
+}
+.auth-card{
+    width:80% !important;
+}
+header nav ul{
+    width:40% !important;
+}
+}
+
+@media(max-width:767px){
+    #about .card-body{
+        margin-bottom:1.5em !important;
+    }
+
+     .proof-card{
+        margin-bottom:1.5em !important;
+    }
+}
+
+
+
+@media(max-width:600px){
+    html{
+        font-size:14px !important
+    }
+    .container{
+        width:90% !important
+    }
+    .auth-card{
+        width:90% !important;
+    }
+
+    header nav ul{
+        width:60% !important;
+    }
+}
+
+
+@media(max-width:400px){
+    html{
+        font-size:12px !important
+    }
+
+    .container{
+        width:96% !important;
+        
+    }
+
+    
+    
+}

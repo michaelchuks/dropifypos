@@ -1,0 +1,96 @@
+html{
+    font-size:15px !important;
+}
+
+.header-section{
+    background-image:url("../images/banner.jpg") !important;
+    background-position:center center !important;
+    background-size:cover !important;
+    min-height:80vh !important;
+    padding-top:1.5em !important;
+}
+
+.header-section nav{
+    display:flex !important;
+    align-items:center !important;
+    justify-content: space-between !important;
+}
+
+
+.header-section nav ul{
+    display:flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width:20% !important;
+}
+
+
+.header-section nav .logo{
+    color:lightgray !important;
+    font-weight:bold !important;
+}
+
+.header-section nav ul li a{
+    color:lightgray !important;
+}
+
+
+.hero-section{
+    margin-top:5em !important;
+    width:50% !important;
+    color:white !important;
+}
+
+
+
+
+
+@media(max-width:1000px){
+    .header-section nav ul{
+        width:40% !important;
+    }
+
+    .hero-section{
+        width:50% !important;
+    }
+
+    .hero-section h1{
+        font-size:1.5rem !important;
+    }
+}
+
+
+
+@media(max-width:600px){
+
+    html{
+        font-size:12px !important;
+    }
+    .header-section nav ul{
+        width:50% !important;
+    }
+
+
+    
+    .hero-section{
+        width:60% !important;
+    }
+
+    .hero-section h1{
+        font-size:1.3rem !important;
+    }
+
+}
+
+
+@media(max-width:500px){
+    .header-section nav ul{
+        width:60% !important;
+    }
+
+    
+    .hero-section{
+        width:70% !important;
+    }
+
+}
