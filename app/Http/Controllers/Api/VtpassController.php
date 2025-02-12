@@ -521,7 +521,7 @@ class VtpassController extends Controller
               $new_transaction->save();
   
               $latest_vtpass_transaction = VtpassTransactions::orderBy("id","desc")->first();
-  
+          
   
               //inserting into the activity table
               $data = strtotime(date("Y-m-d"));
